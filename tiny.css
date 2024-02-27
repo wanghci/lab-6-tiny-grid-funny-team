@@ -29,6 +29,12 @@
   } */
   @media (min-width: 375px){
     .wrapper{
-        
+        grid-template-columns: ;
+        grid-templates-areas: ;
+    
     }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+      }
   }
