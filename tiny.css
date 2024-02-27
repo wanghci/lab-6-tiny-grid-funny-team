@@ -1,32 +1,4 @@
-/* edit the tiny.css such that when the viewport width is less
- than 375px, the layout changes such that only the "main article area" is displayed. */
- /* @media (min-width: 700px) {
-    .wrapper {
-      grid-template-columns: 1fr 4fr 1fr;
-      grid-template-areas:
-        "header header  header"
-        "nav    content sidebar"
-        "nav    content ad"
-        "footer footer  footer";
-    }
-    nav ul {
-      flex-direction: column;
-    }
-  } */
-  /* @media (min-width: 500px) {
-    .wrapper {
-      grid-template-columns: 1fr 3fr;
-      grid-template-areas:
-        "header  header"
-        "nav     nav"
-        "sidebar content"
-        "ad      footer";
-    }
-    nav ul {
-      display: flex;
-      justify-content: space-between;
-    }
-  } */
+
   @media (max-width: 375px){
     .wrapper{
         grid-template-columns: 1fr;
