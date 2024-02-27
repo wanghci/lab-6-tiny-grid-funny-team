@@ -27,15 +27,29 @@
       justify-content: space-between;
     }
   } */
-  @media (min-width: 375px){
+  @media (max-width: 375px){
     .wrapper{
         grid-template-columns: 1fr;
-        grid-templates-areas: 
+        grid-template-areas: 
          "content";
+        justify-content: space-between;
+
     
     }
     nav ul {
-        display: flex;
-        justify-content: space-between;
-      }
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    div{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+
   }
