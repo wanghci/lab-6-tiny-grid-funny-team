@@ -29,8 +29,9 @@
   } */
   @media (min-width: 375px){
     .wrapper{
-        grid-template-columns: ;
-        grid-templates-areas: ;
+        grid-template-columns: 1fr;
+        grid-templates-areas: 
+         "content";
     
     }
     nav ul {
